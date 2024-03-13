@@ -1,0 +1,41 @@
+$primaryColor: #4527a4;
+
+.prefixNowEditing {
+	outline: 2px solid $primaryColor;
+}
+
+.prefixInspectorInfo {
+	padding: 6px;
+	a {
+		text-decoration: none;
+		font-weight: bold;
+	}
+}
+.cttk-addItemsBtn{
+	display:flex;
+	align-items:center;
+	gap: 5px;
+}
+.cttk-panelDeviceWrapper{
+	position:relative;
+	.cttk-panelDevice{
+		position: absolute;
+		left:60px;
+	}
+}
+
+
+
+.width120{
+	width: 120px;
+}
+.width130{
+	width: 130px;
+}
+.width140{
+	width: 140px;
+}
+.width65{
+	width: 65px;
+}
+

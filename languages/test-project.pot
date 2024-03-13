@@ -1,0 +1,171 @@
+# Copyright (C) 2024 bPlugins LLC
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Content Ticker 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/content ticker\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-04T08:05:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: content-ticker\n"
+
+#. Plugin Name of the plugin
+msgid "Content Ticker"
+msgstr ""
+
+#. Description of the plugin
+msgid "Description of the Content Ticker."
+msgstr ""
+
+#. Author of the plugin
+msgid "bPlugins LLC"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://bplugins.com"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:21738
+msgid "Animation Settings"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:21749
+msgid "Effect"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:21761
+msgid "Slider Speed(ms)"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:21768
+msgid "Autoplay"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:21774
+msgid "Autoplay Speed(ms)"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:21781
+msgid "Pause On Hover"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:21787
+msgid "Infinite Loop"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:21793
+msgid "Grab Cursor"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:21799
+msgid "Navigation Arrows"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:21813
+msgid "Direction"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:21879
+#: dist/editor.js:21898
+msgid "Content"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:21880
+msgid "Badge Text"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:21904
+msgid "Link"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:34183
+msgid "Badge Style"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:34185
+#: dist/editor.js:34324
+msgid "Background"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:34191
+msgid "Color"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:34197
+#: dist/editor.js:34339
+msgid "Typography"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:34208
+#: dist/editor.js:34351
+msgid "Padding"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:34220
+msgid "Margin"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:34232
+#: dist/editor.js:34358
+msgid "Border Radius"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:34322
+msgid "Content Style"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:34334
+msgid "Text Color"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block title"
+msgid "Content Ticker"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block description"
+msgid "Description of Content Ticker."
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "hello"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "block"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "gutenberg"
+msgstr ""

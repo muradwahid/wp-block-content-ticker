@@ -1,0 +1,104 @@
+$primaryColor: #4527a4;
+
+// Common CSS
+html {
+  scroll-behavior: smooth;
+}
+
+// Dashicon
+.dashicons {
+  font-family: dashicons !important;
+}
+
+// Block Name
+.wp-block-cttk-content-ticker,
+.cttk-content-ticker {
+  * {
+    box-sizing: border-box;
+  }
+  .cttk-ticker-wrapper {
+    .cttk-ticker-swiper-wrapper {
+      display: flex;
+      align-items: center;
+      position: relative;
+      .cttk-ticker-badge {
+        height: 50px;
+        color: white;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+          white-space: nowrap !important;
+        }
+      }
+      .cttk-ticker-content-wrapper {
+        height: 44px;
+        .swiper-wrapper {
+          .swiper-slide {
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            a {
+              text-decoration: none;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      // .custom-buttons {
+      //   display: flex;
+      //   align-items: center;
+      //   gap: 10px;
+      //   z-index: 999;
+      //   font-size: 26px;
+      // svg {
+      //   cursor: pointer;
+      //   margin: 0px;
+      //   position: absolute;
+      //   right: 0;
+      //   top: 50%;
+      //   transform: translateY(-50%);
+      //   font-size: 26px;
+      //   z-index: 999;
+      // }
+      .cttk-navBtnWrapper {
+        height: 100%;
+        z-index: 9999;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        .cttk-navBtn {
+          height: inherit;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          #cttk-prevBtn,
+          #cttk-nextBtn {
+            cursor: pointer;
+            font-size: 22px;
+          }
+          // #cttk-prevBtn{
+          //   right:5px
+          // }
+          // #cttk-nextBtn{
+          //   right: 24px;
+          // }
+        }
+      }
+      .custom-prev-btn {
+        // margin-right: -9px;
+        // right: 24px;
+      }
+      .custom-next-btn {
+        // margin-left: -9px;
+        // right: 5px;
+      }
+      // .custom-prev-btn:focus,.custom-next-btn:focus{
+      //   outline: none;
+      // }
+      // }
+    }
+  }
+}
