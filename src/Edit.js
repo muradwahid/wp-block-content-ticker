@@ -2,9 +2,9 @@ import { InspectorControls } from '@wordpress/block-editor';
 import { Fragment, useEffect, useState } from 'react';
 import ContentTicker from './Components/ContentTicker/ContentTicker';
 import Settings from './Components/Settings/Settings';
-import StyleSettings from './Components/Settings/StyleSettings';
 import Style from './Components/Style/Style';
 import TabPanel from "./Components/panel/TabPanel/TabPanel";
+import StyleSettings from './Components/Settings/StyleSettings/StyleSettings';
 const Edit = props => {
   const { className, setAttributes, clientId, attributes } = props;
   const { cId } = attributes;

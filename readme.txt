@@ -1,31 +1,39 @@
 === Content Ticker ===
 Contributors: abuhayat
-Donate link: https://gum.co/wpdonate/
-Tags: block, key1, key2, key3, Gutenberg block
-Requires at least: 5.0+
-Tested up to: 6.3.1
+Donate link: https://www.buymeacoffee.com/abuhayat
+Tags: block, content, ticker, content-ticker, Gutenberg block
+Requires at least: 6.2+
+Tested up to: 6.4.3
 Stable tag: 1.0.0
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Description of the Content Ticker
+Content Ticker will let you showcase your trending news.
 
 == Description ==
 
-Large Description
+Content Ticker is a dynamic and customizable widget that seamlessly integrates into your website, providing visitors with real-time updates on the most trending news stories. By displaying headlines and brief summaries, Content Ticker keeps your audience informed and engaged.
 
 
-**[Demos](https://bblockswp.com/demo/block-name)**
+**[Demos](https://bblockswp.com/demo/content-ticker)**
 
 
 = Features =
-- **Fully Customizable**: All the options you need to arrange the showcase to your liking are available here.
+**Real-Time News Feed**: Display in the latest news headlines, ensuring your visitors stay up-to-date.
+
+**Badge**: Content ticker badge You can customize the text, color, background color and more.
+
+**content**: With the title of your news in the content, you can give the link to the news, and you can do different designs.
+
+**arrows**: You can change the arrow of the ticker as per your need. Arrow can be designed in different ways.
+
+**Mobile Responsive**: Adapts seamlessly to any device, ensuring a consistent user experience across all platforms.
 
 
 = How to use =
 - First, install the Content Ticker plugin
-- Add the Content Ticker from the block category called "Widgets" in Gutenberg editor.
+- Add the Content Ticker blocks from the block category called "Widgets" in Gutenberg editor.
 - You can change block settings from the right-side settings sidebar.
 - Enjoy!
 
@@ -38,20 +46,22 @@ Large Description
 
 = ⭐ Check out the Parent Plugin of this plugin- =
 
-🔥 **[b Blocks](https://bblockswp.com/)** – Best gutenberg blocks collections for WordPress.
+🔥 **[b Blocks](https://bblockswp.com)** – Best gutenberg blocks collections for WordPress.
 
 
 = ⭐ Check out our other WordPress Plugins- =
 
-🔥 **[Html5 Audio Player](https://audioplayerwp.com/)** – Best audio player plugin for WordPress.
+🔥 **[Html5 Audio Player](https://bplugins.com/products/html5-audio-player/)** – Play .mp3, .wav, and .ogg audio files in WordPress.
 
-🔥 **[Html5 Video Player](https://wpvideoplayer.com/)** – Best video player plugin for WordPress.
+🔥 **[Html5 Video Player](https://bplugins.com/products/html5-video-player/)** – Best video player plugin for WordPress.
 
-🔥 **[PDF Poster](http://pdfposter.com/)** – A fully-featured PDF Viewer Plugin for WordPress.
+🔥 **[PDF Poster](https://bplugins.com/products/pdf-poster/)** – A fully-featured PDF Viewer Plugin for WordPress.
 
-🔥 **[StreamCast](https://wordpress.org/plugins/streamcast)** – A fully-featured Radio Player Plugin for WordPress.
+🔥 **[Document Embedder](https://bplugins.com/products/document-embedder/)** – Embed Word, Excel, PowerPoint, Apple Pages, Psd, Pdf and more.
 
-🔥 **[3D Viewer](https://3d-viewer.bplugins.com/)** – Display interactive 3D models on the webs.
+🔥 **[3D Viewer](https://bplugins.com/products/3d-viewer/)** – Display interactive 3D models on the webs.
+
+🔥 **[Advanced Post Block](https://bplugins.com/products/advanced-post-block/)** – Display your Posts, Custom Post Content and Blogs in a professional way!
 
 
 == Installation ==
@@ -92,7 +102,7 @@ You can use unlimited times as you want.
 
 = Where can I get support? =
 
-You can post your questions on the [support forum here](https://wordpress.org/support/plugin/block-directory/)
+You can post your questions on the [support forum here](https://wordpress.org/support/plugin/conetnt-ticker/)
 
 
 == Screenshots ==

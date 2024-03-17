@@ -1,14 +1,14 @@
 import {
   __experimentalBoxControl as BoxControl,
   Flex,
-  PanelBody,__experimentalUnitControl as UnitControl
+  PanelBody, __experimentalUnitControl as UnitControl
 } from '@wordpress/components';
 import { __ } from '@wordpress/i18n';
 import { produce } from 'immer';
 import React, { useState } from 'react';
-import { Background, Label, Typography } from '../../../../Components';
-import Device from '../panel/Device/Device';
-import PanelColorPicker from '../panel/PanelColorPicker/PanelColorPicker';
+import { Background, Label, Typography } from '../../../../../Components';
+import Device from '../../panel/Device/Device';
+import PanelColorPicker from '../../panel/PanelColorPicker/PanelColorPicker';
 
 const BadgeStyle = ({ attributes, setAttributes }) => {
   const { tickerBadge } = attributes;
@@ -30,13 +30,13 @@ const BadgeStyle = ({ attributes, setAttributes }) => {
     <PanelBody title={__('Badge Style', 'content-ticker')} initialOpen={true}>
       <Flex className="cttk-panelDeviceWrapper">
         <Label className="mb10">{__("Width", "content-ticker")}</Label>
-        <Device className="cttk-panelDevice mb10" device={device} onChange={value=>setDevice(value)} />
-        
-        <UnitControl className='width65' value={tickerBadge.width[device]} onChange={value =>update("width",value,device)} />
+        <Device className="cttk-panelDevice mb10" device={device} onChange={value => setDevice(value)} />
+
+        <UnitControl className='width65' value={tickerBadge.width[device]} onChange={value => update("width", value, device)} />
       </Flex>
       <Flex className="cttk-panelDeviceWrapper">
         <Device className="cttk-panelDevice mb10" device={device} onChange={value => setDevice(value)} />
-        <Label className="mb10">{__("Height","content-ticker")}</Label>
+        <Label className="mb10">{__("Height", "content-ticker")}</Label>
         <UnitControl className='width65' value={tickerBadge.height[device]} onChange={value => update("height", value, device)} />
       </Flex>
       <Background

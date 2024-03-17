@@ -12,7 +12,7 @@ html {
 
 // Block Name
 .wp-block-cttk-content-ticker,
-.cttk-content-ticker {
+.wp-block-b-blocks-content-ticker {
   * {
     box-sizing: border-box;
   }
@@ -62,38 +62,42 @@ html {
       //   font-size: 26px;
       //   z-index: 999;
       // }
-      .cttk-navBtnWrapper {
-        height: 100%;
+      // .cttk-navBtnWrapper {
+      //   height: 100%;
+      //   z-index: 9999;
+      //   position: absolute;
+      //   right: 0;
+      //   top: 50%;
+      //   transform: translateY(-50%);
+      // .cttk-navBtn {
+      //   height: inherit;
+      //   display: flex;
+      //   align-items: center;
+      //   justify-content: center;
+
+      #cttk-prevBtn {
+        cursor: pointer;
         z-index: 9999;
         position: absolute;
-        right: 0;
         top: 50%;
         transform: translateY(-50%);
-        .cttk-navBtn {
-          height: inherit;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          #cttk-prevBtn,
-          #cttk-nextBtn {
-            cursor: pointer;
-            font-size: 22px;
-          }
-          // #cttk-prevBtn{
-          //   right:5px
-          // }
-          // #cttk-nextBtn{
-          //   right: 24px;
-          // }
-        }
       }
+      #cttk-nextBtn {
+        cursor: pointer;
+        z-index: 9999;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      // }
+      // }
       .custom-prev-btn {
         // margin-right: -9px;
         // right: 24px;
       }
       .custom-next-btn {
         // margin-left: -9px;
-        // right: 5px;
+        right: 5px;
       }
       // .custom-prev-btn:focus,.custom-next-btn:focus{
       //   outline: none;

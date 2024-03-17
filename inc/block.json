@@ -1,10 +1,10 @@
 {
   "apiVersion": "1",
-  "name": "cttk/content-ticker",
+  "name": "b-blocks/content-ticker",
   "title": "Content Ticker",
   "description": "Content Ticker will let you showcase your trending news.",
   "category": "widgets",
-  "keywords": ["hello", "block", "gutenberg"],
+  "keywords": ["content", "ticker", "content-ticker"],
   "textdomain": "content-ticker",
   "attributes": {
     "align": {
@@ -19,8 +19,8 @@
       "type": "object",
       "default": {
         "text": "Trending Now",
-        "width":{ "desktop": "130px", "tablet": "130px", "mobile": "130px" },
-        "height":{"desktop":"","tablet":"","mobile":""},
+        "width": { "desktop": "130px", "tablet": "130px", "mobile": "130px" },
+        "height": { "desktop": "", "tablet": "", "mobile": "" },
         "color": { "bg": { "color": "#595959" }, "text": "" },
         "typography": {
           "fontSize": 16,
@@ -133,55 +133,16 @@
     "arrows": {
       "type": "object",
       "default": {
-        "left": "",
-        "right": "",
-        "size": 22,
-        "alignLeft": 22,
-        "alignRight": 22,
+        "left": { "url": "" },
+        "right": { "url": "" },
+        "size": { "desktop": 22, "tablet": 22, "mobile": 22 },
+        "alignLeft": { "desktop": 25, "tablet": 25, "mobile": 25 },
+        "alignRight": { "desktop": 5, "tablet": 5, "mobile": 5 },
         "bg": { "normal": "", "hover": "" },
         "color": { "normal": "", "hover": "" },
-        "borderType": "default",
-        "borderWidth": {
-          "desktop": {
-            "top": "0px",
-            "left": "0px",
-            "bottom": "0px",
-            "right": "0px"
-          },
-          "tablet": {
-            "top": "0px",
-            "left": "0px",
-            "bottom": "0px",
-            "right": "0px"
-          },
-          "mobile": {
-            "top": "0px",
-            "left": "0px",
-            "bottom": "0px",
-            "right": "0px"
-          }
-        },
-        "bColor": { "normal": "", "hover": "" },
-        "bRadius": {
-          "desktop": {
-            "top": "0px",
-            "left": "0px",
-            "bottom": "0px",
-            "right": "0px"
-          },
-          "tablet": {
-            "top": "0px",
-            "left": "0px",
-            "bottom": "0px",
-            "right": "0px"
-          },
-          "mobile": {
-            "top": "0px",
-            "left": "0px",
-            "bottom": "0px",
-            "right": "0px"
-          }
-        }
+        "padding": { "desktop": {}, "tablet": {}, "mobile": {} },
+        "border": {},
+        "bColor": ""
       }
     }
   },
@@ -199,5 +160,5 @@
       }
     }
   },
-  "editorScript": "file:./../dist/editor.js"
+  "editorScript": "file:../dist/editor.js"
 }

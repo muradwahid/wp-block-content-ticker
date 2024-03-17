@@ -1,11 +1,11 @@
 import { PanelBody,__experimentalBoxControl as BoxControl, } from '@wordpress/components';
 import { __ } from '@wordpress/i18n';
 import React, {useState} from 'react';
-import PanelColorPicker from '../panel/PanelColorPicker/PanelColorPicker';
 import { produce } from 'immer';
-import Tab from '../panel/Tab/Tab';
-import { Typography } from '../../../../Components';
-import Device from '../panel/Device/Device';
+import Tab from '../../panel/Tab/Tab';
+import Device from '../../panel/Device/Device';
+import PanelColorPicker from '../../panel/PanelColorPicker/PanelColorPicker';
+import { Typography } from '../../../../../Components';
 
 const ContentStyle = ({ attributes, setAttributes }) => {
   const { styleContent } = attributes;
@@ -48,7 +48,7 @@ const ContentStyle = ({ attributes, setAttributes }) => {
       <hr />
       <div style={{ position: 'relative' }}>
         <Device
-          style={{ position: 'absolute', left: '55px', top: '-6px' }}
+          style={{ position: 'absolute', left: '55px' }}
           device={paddingDevice}
           onChange={(value) => setPaddingDevice(value)}
         />

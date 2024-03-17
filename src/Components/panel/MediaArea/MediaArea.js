@@ -1,5 +1,22 @@
-import { MediaUpload } from '@wordpress/block-editor';
-import "./mediaArea.css";
+import "./mediaArea.scss"
+const { MediaUpload } = wp.blockEditor;
+/**
+ * MediaArea component.
+ *
+ * @component
+ * @param {Object} props
+ * @param {Array} [props.types] - Optional
+ * @param {String} [props.value]
+ * @param {function} [props.onChange=() => {}] 
+ * @param {String} [props.default] - Optional
+ * @param {String} [props.height="50px"] - Optional
+ * @param {String} [props.width="50px"] - Optional
+ * @param {String} [props.label] - Optional
+ * @param {Object} [props.style] - Optional
+ * @param {String} [props.className] - Optional
+ * @returns {JSX.Element}
+ */
+
 
 const MediaArea = (props) => {
   const {
@@ -36,9 +53,9 @@ const MediaArea = (props) => {
                   className="media-area-image"
                   src={value.url || defaults}
                   alt=""
-                /> : <div className='media-plusBtn-wrapper' onClick={open}>
+                  /> : <div className='media-plusBtn-wrapper' onClick={open}>
                   <div className='mediaPlus-btn-circle'>
-                    <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" className="mediaPlusBtn" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"></path></svg>
+                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" className="mediaPlusBtn" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"></path></svg>
                   </div>
                 </div>
               }
