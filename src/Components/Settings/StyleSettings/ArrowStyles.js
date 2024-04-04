@@ -2,9 +2,9 @@ import { __experimentalBoxControl as BoxControl, PanelBody, RangeControl } from 
 import { __ } from "@wordpress/i18n";
 import { produce } from 'immer';
 import React, { useState } from 'react';
-import { Background, BorderControl, Label } from '../../../../../Components';
-import rightArrow from "../../../../assets/icon/angle-right-solid.svg";
+import { BorderControl, Label } from '../../../../../Components';
 import leftAngelArrow from "../../../../assets/icon/angle-left-solid.svg";
+import rightArrow from "../../../../assets/icon/angle-right-solid.svg";
 import Device from '../../panel/Device/Device';
 import MediaArea from '../../panel/MediaArea/MediaArea';
 import PanelColorPicker from '../../panel/PanelColorPicker/PanelColorPicker';

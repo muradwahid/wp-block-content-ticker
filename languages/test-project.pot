@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-01-04T08:05:44+00:00\n"
+"POT-Creation-Date: 2024-04-04T15:51:36+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "X-Domain: content-ticker\n"
@@ -19,7 +19,7 @@ msgid "Content Ticker"
 msgstr ""
 
 #. Description of the plugin
-msgid "Description of the Content Ticker."
+msgid "Content Ticker will let you showcase your trending news."
 msgstr ""
 
 #. Author of the plugin
@@ -30,118 +30,131 @@ msgstr ""
 msgid "http://bplugins.com"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:21738
+#: dist/editor.js:10
 msgid "Animation Settings"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:21749
+#: dist/editor.js:10
 msgid "Effect"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:21761
+#: dist/editor.js:10
 msgid "Slider Speed(ms)"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:21768
+#: dist/editor.js:10
 msgid "Autoplay"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:21774
+#: dist/editor.js:10
 msgid "Autoplay Speed(ms)"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:21781
+#: dist/editor.js:10
 msgid "Pause On Hover"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:21787
+#: dist/editor.js:10
 msgid "Infinite Loop"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:21793
+#: dist/editor.js:10
 msgid "Grab Cursor"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:21799
+#: dist/editor.js:10
 msgid "Navigation Arrows"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:21813
+#: dist/editor.js:10
 msgid "Direction"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:21879
-#: dist/editor.js:21898
+#: dist/editor.js:10
 msgid "Content"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:21880
+#: dist/editor.js:10
 msgid "Badge Text"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:21904
+#: dist/editor.js:10
 msgid "Link"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:34183
-msgid "Badge Style"
+#: dist/editor.js:10
+msgid "Arrows"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:34185
-#: dist/editor.js:34324
-msgid "Background"
+#: dist/editor.js:10
+msgid "Choose prev arrow"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:34191
-msgid "Color"
+#: dist/editor.js:10
+msgid "Choose next arrow"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:34197
-#: dist/editor.js:34339
-msgid "Typography"
+#: dist/editor.js:10
+msgid "Arrows Size"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:34208
-#: dist/editor.js:34351
+#: dist/editor.js:10
+msgid "Align Left Arrow"
+msgstr ""
+
+#: dist/editor.js:10
+msgid "Align Right Arrow"
+msgstr ""
+
+#: dist/editor.js:10
 msgid "Padding"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:34220
+#: dist/editor.js:10
+msgid "Background"
+msgstr ""
+
+#: dist/editor.js:10
+msgid "Color"
+msgstr ""
+
+#: dist/editor.js:10
+msgid "Border"
+msgstr ""
+
+#: dist/editor.js:10
+msgid "Border Color"
+msgstr ""
+
+#: dist/editor.js:10
+msgid "Badge Style"
+msgstr ""
+
+#: dist/editor.js:10
+msgid "Width"
+msgstr ""
+
+#: dist/editor.js:10
+msgid "Height"
+msgstr ""
+
+#: dist/editor.js:10
+msgid "Typography"
+msgstr ""
+
+#: dist/editor.js:10
 msgid "Margin"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:34232
-#: dist/editor.js:34358
+#: dist/editor.js:10
 msgid "Border Radius"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:34322
+#: dist/editor.js:10
 msgid "Content Style"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:34334
+#: dist/editor.js:10
 msgid "Text Color"
 msgstr ""
 
@@ -152,20 +165,20 @@ msgstr ""
 
 #: inc/block.json
 msgctxt "block description"
-msgid "Description of Content Ticker."
+msgid "Content Ticker will let you showcase your trending news."
 msgstr ""
 
 #: inc/block.json
 msgctxt "block keyword"
-msgid "hello"
+msgid "content"
 msgstr ""
 
 #: inc/block.json
 msgctxt "block keyword"
-msgid "block"
+msgid "ticker"
 msgstr ""
 
 #: inc/block.json
 msgctxt "block keyword"
-msgid "gutenberg"
+msgid "content-ticker"
 msgstr ""

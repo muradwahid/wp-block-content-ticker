@@ -1,7 +1,7 @@
 import {
   Button,
   __experimentalInputControl as InputControl,
-  PanelBody,
+  PanelBody
 } from '@wordpress/components';
 import { __ } from '@wordpress/i18n';
 import { produce } from 'immer';

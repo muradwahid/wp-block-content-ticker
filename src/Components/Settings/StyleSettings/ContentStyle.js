@@ -1,11 +1,11 @@
-import { PanelBody,__experimentalBoxControl as BoxControl, } from '@wordpress/components';
+import { __experimentalBoxControl as BoxControl, PanelBody, } from '@wordpress/components';
 import { __ } from '@wordpress/i18n';
-import React, {useState} from 'react';
 import { produce } from 'immer';
-import Tab from '../../panel/Tab/Tab';
+import React, { useState } from 'react';
+import { Typography } from '../../../../../Components';
 import Device from '../../panel/Device/Device';
 import PanelColorPicker from '../../panel/PanelColorPicker/PanelColorPicker';
-import { Typography } from '../../../../../Components';
+import Tab from '../../panel/Tab/Tab';
 
 const ContentStyle = ({ attributes, setAttributes }) => {
   const { styleContent } = attributes;

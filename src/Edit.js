@@ -8,7 +8,7 @@ import StyleSettings from './Components/Settings/StyleSettings/StyleSettings';
 const Edit = props => {
   const { className, setAttributes, clientId, attributes } = props;
   const { cId } = attributes;
-  const [tab, setTab] = useState("style")
+  const [tab, setTab] = useState("content")
   useEffect(() => { clientId && setAttributes({ cId: clientId.substring(0, 10) }); }, [clientId]); // Set & Update clientId to cId
   return (
     <Fragment>

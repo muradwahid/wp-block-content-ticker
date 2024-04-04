@@ -12,7 +12,7 @@ function FrontEnd({ attributes }) {
 	);
 }
 
-const container = document.querySelectorAll('.wp-block-b-blocks-content-ticker');
+const container = document.querySelectorAll('.wp-block-content-ticker-content-ticker');
 container?.forEach(ele => {
 	const attributes = JSON.parse(ele.dataset.attributes);
 	const root = createRoot(ele);
