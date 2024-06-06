@@ -4,7 +4,7 @@ import {
   getBorderCSS,
   getTypoCSS,
 } from '../../../../Components/utils/getCSS';
-import { getCssBox } from '../../utils/functions';
+import { getBorderRadiusCSS, getCssBox } from '../../utils/functions';
 const Style = ({ attributes }) => {
   const { cId, tickerBadge, styleContent, arrows } = attributes;
   const blockWrapper = `#cttk-content-ticker-${cId} .cttk-ticker-wrapper`
@@ -14,9 +14,10 @@ const Style = ({ attributes }) => {
   return (
     <style>{`
     ${getTypoCSS(badge, tickerBadge.typography)?.googleFontLink}
-    ${getTypoCSS(`${content} a.cttk-ticker-link`, styleContent.typography)
+    ${
+      getTypoCSS(`${content} a.cttk-ticker-link`, styleContent.typography)
         ?.googleFontLink
-      }
+    }
     ${getTypoCSS(badge, tickerBadge.typography)?.styles}
       ${badge}{
         width:${tickerBadge.width.desktop};
@@ -24,13 +25,13 @@ const Style = ({ attributes }) => {
         color:${tickerBadge.color.text};
         padding:${getCssBox(tickerBadge.padding.desktop)};
         margin:${getCssBox(tickerBadge.margin.desktop)};
-        border-radius:${getCssBox(tickerBadge.bRadius.desktop)};
+        ${getBorderRadiusCSS(tickerBadge.bRadius.desktop)}
         ${getBackgroundCSS(tickerBadge.color.bg)}
       }
       ${content}{
         background-color:${styleContent.bg};
         padding:${getCssBox(styleContent.padding.desktop)};
-        border-radius:${getCssBox(styleContent.bRadius)};
+        ${getBorderRadiusCSS(styleContent.bRadius)}
         width:calc(100% - ${tickerBadge.width.desktop});
       }
       ${content} a.cttk-ticker-link{
@@ -68,9 +69,10 @@ const Style = ({ attributes }) => {
         background:${arrows.bg.hover};
         border-color:${arrows.bColor};
       }
-    ${getTypoCSS(`${content} .cttk-ticker-link`, styleContent.typography)
+    ${
+      getTypoCSS(`${content} .cttk-ticker-link`, styleContent.typography)
         ?.styles
-      }
+    }
 
       @media (max-width:1024px){
         ${badge}{
@@ -78,7 +80,7 @@ const Style = ({ attributes }) => {
           height:${tickerBadge.height.tablet};
           padding:${getCssBox(tickerBadge.padding.tablet)};
           margin:${getCssBox(tickerBadge.margin.tablet)};
-          border-radius:${getCssBox(tickerBadge.bRadius.tablet)};
+          ${getBorderRadiusCSS(tickerBadge.bRadius.tablet)}
         }
         ${content}{
           padding:${getCssBox(styleContent.padding.tablet)};
@@ -104,7 +106,7 @@ const Style = ({ attributes }) => {
           height:${tickerBadge.height.mobile};
           padding:${getCssBox(tickerBadge.padding.mobile)};
           margin:${getCssBox(tickerBadge.margin.mobile)};
-          border-radius:${getCssBox(tickerBadge.bRadius.mobile)};
+          ${getBorderRadiusCSS(tickerBadge.bRadius.mobile)}
         }
         ${content}{
           padding:${getCssBox(styleContent.padding.mobile)};
